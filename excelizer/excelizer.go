@@ -9,6 +9,7 @@ import (
 	"github.com/xuri/excelize/v2"
 )
 
+var s = "s"
 var ErrEmptyBreakpoints = errors.New("empty breakpoints")
 
 type Breakpoint struct {
